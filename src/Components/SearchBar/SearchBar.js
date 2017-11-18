@@ -22,10 +22,6 @@ class SearchBar extends Component {
     });
   }
   
-if (event.keyCode === 13 /*enter*/) {
-  this.search();
-}
-  
   render() {
     return (
       <div className="SearchBar">
